@@ -52,29 +52,6 @@
                     "readOnly": true
                 }
             ],
-            "linuxParameters": {
-                "capabilities": {
-                    "add": [
-                        ""
-                    ],
-                    "drop": [
-                        ""
-                    ]
-                },
-                "initProcessEnabled": true,
-                "sharedMemorySize": 0,
-                "tmpfs": [
-                    {
-                        "containerPath": "",
-                        "size": 0,
-                        "mountOptions": [
-                            ""
-                        ]
-                    }
-                ],
-                "maxSwap": 0,
-                "swappiness": 0
-            },
             "secrets": [
                 {
                     "name": "",
@@ -156,22 +133,6 @@
                     "KeyName": ""
                 }
             },
-            "efsVolumeConfiguration": {
-                "fileSystemId": "",
-                "rootDirectory": "",
-                "transitEncryption": "ENABLED",
-                "transitEncryptionPort": 0,
-                "authorizationConfig": {
-                    "accessPointId": "",
-                    "iam": "ENABLED"
-                }
-            },
-            "s3filesVolumeConfiguration": {
-                "fileSystemArn": "",
-                "rootDirectory": "",
-                "transitEncryptionPort": 0,
-                "accessPointArn": ""
-            },
             "fsxWindowsFileServerVolumeConfiguration": {
                 "fileSystemId": "",
                 "rootDirectory": "",
@@ -202,16 +163,6 @@
     ],
     "pidMode": "host",
     "ipcMode": "host",
-    "proxyConfiguration": {
-        "type": "APPMESH",
-        "containerName": "",
-        "properties": [
-            {
-                "name": "",
-                "value": ""
-            }
-        ]
-    },
     "inferenceAccelerators": [
         {
             "deviceName": "",
@@ -224,6 +175,5 @@
     "runtimePlatform": {
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "WINDOWS_SERVER_2019_FULL"
-    },
-    "enableFaultInjection": true
+    }
 }
