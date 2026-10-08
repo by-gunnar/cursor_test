@@ -2,7 +2,10 @@
     "family": "myfirstpage",
     "taskRoleArn": "",
     "executionRoleArn": "",
-    "networkMode": "bridge",
+    "networkMode": "awsvpc",
+    "requiresCompatibilities": [
+      "FARGATE"
+    ],
     "containerDefinitions": [
         {
             "name": "main",
