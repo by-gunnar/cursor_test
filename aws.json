@@ -41,7 +41,6 @@
           "awslogs-create-group": "true"
         }
       },
-      "readonlyRootFilesystem": true,
       "mountPoints": [
         {
           "sourceVolume": "tmp",
