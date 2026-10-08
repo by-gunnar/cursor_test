@@ -40,19 +40,6 @@
           "awslogs-stream-prefix": "ecs",
           "awslogs-create-group": "true"
         }
-      },
-      "mountPoints": [
-        {
-          "sourceVolume": "tmp",
-          "containerPath": "/tmp",
-          "readOnly": false
-        }
-      ],
-      "linuxParameters": {
-        "capabilities": {
-          "drop": ["ALL"]
-        },
-        "initProcessEnabled": true
       }
     }
   ],
