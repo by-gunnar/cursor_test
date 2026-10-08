@@ -27,13 +27,6 @@
                 }
             ],
             "essential": true,
-            "restartPolicy": {
-                "enabled": true,
-                "ignoredExitCodes": [
-                    0
-                ],
-                "restartAttemptPeriod": 0
-            },
             "entryPoint": [
                 ""
             ],
@@ -44,12 +37,6 @@
                 {
                     "name": "",
                     "value": ""
-                }
-            ],
-            "environmentFiles": [
-                {
-                    "value": "",
-                    "type": "s3"
                 }
             ],
             "mountPoints": [
@@ -74,15 +61,6 @@
                         ""
                     ]
                 },
-                "devices": [
-                    {
-                        "hostPath": "",
-                        "containerPath": "",
-                        "permissions": [
-                            "read"
-                        ]
-                    }
-                ],
                 "initProcessEnabled": true,
                 "sharedMemorySize": 0,
                 "tmpfs": [
@@ -103,15 +81,8 @@
                     "valueFrom": ""
                 }
             ],
-            "dependsOn": [
-                {
-                    "containerName": "",
-                    "condition": "START"
-                }
-            ],
             "startTimeout": 0,
             "stopTimeout": 0,
-            "versionConsistency": "enabled",
             "hostname": "",
             "user": "",
             "workingDirectory": "",
@@ -157,27 +128,6 @@
                     }
                 ]
             },
-            "healthCheck": {
-                "command": [
-                    ""
-                ],
-                "interval": 0,
-                "timeout": 0,
-                "retries": 0,
-                "startPeriod": 0
-            },
-            "systemControls": [
-                {
-                    "namespace": "",
-                    "value": ""
-                }
-            ],
-            "resourceRequirements": [
-                {
-                    "value": "",
-                    "type": "GPU"
-                }
-            ],
             "firelensConfiguration": {
                 "type": "fluentd",
                 "options": {
