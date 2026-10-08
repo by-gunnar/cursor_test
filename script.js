@@ -10,9 +10,9 @@ const greetings = [
 ];
 
 const palettes = [
-  { id: "tide", label: "Tide" },
-  { id: "ember", label: "Ember" },
-  { id: "ink", label: "Ink" },
+  { id: "signal", label: "Signal" },
+  { id: "citrus", label: "Citrus" },
+  { id: "bloom", label: "Bloom" },
 ];
 
 const greetingEl = document.getElementById("greeting");
@@ -123,7 +123,7 @@ function setGreeting(index) {
 function setPalette(index) {
   paletteIndex = (index + palettes.length) % palettes.length;
   const item = palettes[paletteIndex];
-  if (item.id === "tide") {
+  if (item.id === "signal") {
     document.documentElement.removeAttribute("data-palette");
   } else {
     document.documentElement.setAttribute("data-palette", item.id);
