@@ -36,19 +36,7 @@
                     "softLimit": 0,
                     "hardLimit": 0
                 }
-            ],
-            "logConfiguration": {
-                "logDriver": "json-file",
-                "options": {
-                    "KeyName": ""
-                },
-                "secretOptions": [
-                    {
-                        "name": "",
-                        "valueFrom": ""
-                    }
-                ]
-            }
+            ]
         }
     ],
     "pidMode": "host"
