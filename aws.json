@@ -16,7 +16,7 @@
       "essential": true,
       "portMappings": [
         {
-          "containerPort": 8080,
+          "containerPort": 80,
           "protocol": "tcp",
           "name": "http",
           "appProtocol": "http"
@@ -25,7 +25,7 @@
       "healthCheck": {
         "command": [
           "CMD-SHELL",
-          "wget -qO- http://127.0.0.1:8080/health || exit 1"
+          "wget -qO- http://127.0.0.1 || exit 1"
         ],
         "interval": 30,
         "timeout": 5,
