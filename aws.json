@@ -49,15 +49,6 @@
                     }
                 ]
             },
-            "firelensConfiguration": {
-                "type": "fluentd",
-                "options": {
-                    "KeyName": ""
-                }
-            },
-            "credentialSpecs": [
-                ""
-            ]
         }
     ],
     "pidMode": "host",
