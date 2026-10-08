@@ -1,12 +1,12 @@
 {
-    "family": "",
+    "family": "myfirstpage",
     "taskRoleArn": "",
     "executionRoleArn": "",
     "networkMode": "bridge",
     "containerDefinitions": [
         {
-            "name": "",
-            "image": "",
+            "name": "main",
+            "image": "image",
             "repositoryCredentials": {
                 "credentialsParameter": ""
             },
