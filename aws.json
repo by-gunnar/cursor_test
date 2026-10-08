@@ -4,6 +4,8 @@
     "requiresCompatibilities": [
       "FARGATE"
     ],
+    "cpu": 256,
+    "memory": 512,
     "containerDefinitions": [
         {
             "name": "main",
@@ -11,8 +13,6 @@
             "repositoryCredentials": {
                 "credentialsParameter": ""
             },
-            "cpu": 256,
-            "memory": 512,
             "portMappings": [
                 {
                     "containerPort": 80,
