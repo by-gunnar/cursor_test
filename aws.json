@@ -23,20 +23,11 @@
                 }
             ],
             "essential": true,
-            "startTimeout": 0,
-            "stopTimeout": 0,
-            "hostname": "",
-            "user": "",
-            "workingDirectory": "",
+            "startTimeout": 2,
+            "stopTimeout": 2,
             "disableNetworking": true,
             "privileged": true,
             "readonlyRootFilesystem": true,
-            "dnsServers": [
-                ""
-            ],
-            "dnsSearchDomains": [
-                ""
-            ],
             "interactive": true,
             "pseudoTerminal": true,
             "ulimits": [
@@ -69,28 +60,8 @@
             ]
         }
     ],
-    "requiresCompatibilities": [
-        "EC2"
-    ],
-    "cpu": "",
-    "memory": "",
-    "tags": [
-        {
-            "key": "",
-            "value": ""
-        }
-    ],
     "pidMode": "host",
     "ipcMode": "host",
-    "inferenceAccelerators": [
-        {
-            "deviceName": "",
-            "deviceType": ""
-        }
-    ],
-    "ephemeralStorage": {
-        "sizeInGiB": 0
-    },
     "runtimePlatform": {
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "WINDOWS_SERVER_2019_FULL"
