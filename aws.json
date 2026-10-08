@@ -26,7 +26,7 @@
             "essential": true,
             "startTimeout": 2,
             "stopTimeout": 2,
-            "privileged": true,
+            "privileged": false,
             "readonlyRootFilesystem": true,
             "interactive": true,
             "pseudoTerminal": true,
